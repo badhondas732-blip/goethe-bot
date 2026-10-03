@@ -51,6 +51,7 @@ def check_page(name, url):
 
 async def main():
     await send_message("Goethe bot started successfully!")
+    await send_message("🚨 TEST: সিট খোলার টেস্ট নোটিফিকেশন! যদি এটা পাও, তাহলে নোটিফিকেশন ঠিকমতো কাজ করছে।")
     last_status = {name: False for name in URLS}
 
     while True:
